@@ -21,27 +21,29 @@ export default {
     },
     extend: {
       fontSize: {
-        h1: ['1.25rem', {
-          lineHeight: 1.4,
-          fontWeight: 500,
-          fontFamily: 'Helvetica, Arial, sans-serif'
-        }],
-        'h2': ['1rem', {     
-          lineHeight: '1.4',
-          fontWeight: '500', 
-          fontFamily: 'Helvetica, Arial, sans-serif'
-        }],
-        'h3': ['1rem', { 
-          lineHeight: '1.4',
-          fontWeight: '400',
-          fontFamily: 'Helvetica, Arial, sans-serif'
-        }]
+        h1: ['1.25rem', { lineHeight: '1.4', fontWeight: '500' }],
+        h2: ['1rem', { lineHeight: '1.4', fontWeight: '500' }],
+        h3: ['1rem', { lineHeight: '1.4', fontWeight: '400' }],
       },
       boxShadow: {
         '01': '0px 1px 2px 0px rgba(0, 0, 0, 0.2)',
-        '02': '0px 2px 4px 0px rgba(0, 0, 0, 0.2)',    
-        small: '0px 2px 8px 0px rgba(0, 0, 0, 0.2)', 
-    }
+        '02': '0px 2px 4px 0px rgba(0, 0, 0, 0.2)',
+        small: '0px 2px 8px 0px rgba(0, 0, 0, 0.2)',
+      },
+      keyframes: {
+        "accordion-down": {
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
+        },
+        "accordion-up": {
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
+        },
+      },
+      animation: {
+        "accordion-down": "accordion-down 0.2s ease-out",
+        "accordion-up": "accordion-up 0.2s ease-out",
+      },
     },
   },
   plugins: [],

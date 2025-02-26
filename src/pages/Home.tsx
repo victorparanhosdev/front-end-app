@@ -1,7 +1,7 @@
-import { Header } from "../../components/Header";
-import { Input } from "../../components/Input";
+import { Header } from "../components/Header";
+import { Input } from "../components/Input";
 import { IoMdSearch } from "react-icons/io";
-import { Table } from "../../components/Table";
+import { Table } from "../components/Table";
 
 
 export function Home() {
@@ -11,9 +11,9 @@ export function Home() {
     <main className="bg-gray-00 min-h-screen">
       <Header />
 
-      <section className="max-w-screen-lg px-8 mx-auto pb-20">
+      <section className="max-w-screen-lg px-5 mx-auto pb-20">
         <div className="flex w-full items-center justify-between my-8">
-          <h1 className="text-h1 text-black">Funcionários</h1>
+          <h1 className="text-h1 text-blackzz">Funcionários</h1>
 
           <Input iconRight={IoMdSearch} />
         </div>
