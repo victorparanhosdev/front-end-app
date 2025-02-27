@@ -31,20 +31,16 @@ export default {
         small: '0px 2px 8px 0px rgba(0, 0, 0, 0.2)',
       },
       keyframes: {
-        "accordion-down": {
-          from: { height: "0" },
-          to: { height: "var(--radix-accordion-content-height)" },
-        },
-        "accordion-up": {
-          from: { height: "var(--radix-accordion-content-height)" },
-          to: { height: "0" },
+        expandRow: {
+          from: { maxHeight: '0', opacity: 0},
+          to: { maxHeight: '600px', opacity: 1}
         },
       },
       animation: {
-        "accordion-down": "accordion-down 0.2s ease-out",
-        "accordion-up": "accordion-up 0.2s ease-out",
-      },
+        expandRow: 'expandRow 0.4s linear'
+      }
     },
+   
   },
   plugins: [],
 }
