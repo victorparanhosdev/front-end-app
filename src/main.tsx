@@ -1,16 +1,15 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './global.css'
-import { Home } from './pages/Home'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
-
+import {Routes} from './routes'
+import './global.css'
 
 const queryClient = new QueryClient();
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <QueryClientProvider client={queryClient}>
-      <Home />
+      <Routes />
     </QueryClientProvider>
   </StrictMode>,
 )
