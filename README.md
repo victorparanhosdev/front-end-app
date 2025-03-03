@@ -2,12 +2,22 @@
 
 Este projeto consiste em uma aplicação front-end que exibe uma tabela de colaboradores com dados provenientes de uma API simulada. A interface é responsiva e inclui funcionalidade de pesquisa, seguindo o design especificado no Figma.
 
+<h1 align="center">
+    <img alt="Layout Web" src="/web.jpg" width="100%">
+</h1>
+
+<h1 align="center">
+    <img alt="Layout Mobile" src="/mobile.jpg" width="100%">
+</h1>
+
+
+
 ## 🚀 Funcionalidades
 
-Visualização de tabela de colaboradores
-Pesquisa de colaboradores
-Interface totalmente responsiva
-Consumo de API simulada com json-server
+- Visualização de tabela de colaboradores
+- Pesquisa de colaboradores
+- Interface totalmente responsiva
+- Consumo de API simulada com json-server
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -36,16 +46,19 @@ git clone https://github.com/victorparanhosdev/front-end-app.git
 cd front-end-app
 
 Instale as dependências:
-
+```
 npm install
 ou
 yarn
+```
 
 Inicie o servidor de desenvolvimento:
 
+```
 npm run dev
 ou
 yarn dev
+```
 
 Inicie o servidor JSON em outro terminal:
 
@@ -65,7 +78,9 @@ O servidor JSON estará disponível em: http://localhost:3000
 - npm run dev:server: Inicia o JSON Server para simular uma API REST
 
 📊 Estrutura do Projeto
-Copyfront-end-app/
+
+```
+front-end-app/
 ├── public/
 ├── src/
 │   ├── @types/        # Definições de tipos TypeScript
@@ -85,6 +100,6 @@ Copyfront-end-app/
 ├── tailwind.config.js # Configuração do TailwindCSS
 ├── tsconfig.json     # Configuração do TypeScript
 └── vite.config.ts    # Configuração do Vite
-
+```
 👨‍💻 Autor
 Desenvolvido por Victor Paranhos.

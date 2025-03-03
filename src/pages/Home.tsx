@@ -18,7 +18,7 @@ export function Home() {
   return (
     <React.Fragment>
       <div className="grid my-6 md:flex gap-6 w-full items-center justify-between md:my-8">
-        <h1 className="text-h1 text-blackzz">Funcionários</h1>
+        <h1 className="text-h1 text-black font-helvetica">Funcionários</h1>
         <Input iconRight={IoMdSearch} onChange={handleSearch} />
       </div>
       <table className="w-full overflow-hidden border-separate border-spacing-y-1" aria-label="Lista de funcionários">

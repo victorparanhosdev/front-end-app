@@ -38,6 +38,9 @@ export default {
       },
       animation: {
         expandRow: 'expandRow 0.4s linear'
+      },
+      fontFamily: {
+        helvetica: ['Helvetica Neue', 'sans-serif'],
       }
     },
    

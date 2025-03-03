@@ -83,18 +83,18 @@ export const TableData = ({ getFilterData }: { getFilterData: string }) => {
                       data-state={expandedRow === employee.id}
                     >
                       <div className="flex justify-between px-4 relative after:block after:w-[calc(100%-2rem)] after:h-1 after:absolute after:bottom-0 after:left-4 after:border-b after:border-gray-10 after:border-dashed">
-                        <h2 className="text-h2">Cargo</h2>
-                        <h3 className="text-h3">{employee.job}</h3>
+                        <h2 className="text-h2 font-helvetica">Cargo</h2>
+                        <h3 className="text-h3 font-helvetica">{employee.job}</h3>
                       </div>
 
                       <div className="flex justify-between px-4 relative after:block after:w-[calc(100%-2rem)] after:h-1 after:absolute after:bottom-0 after:left-4 after:border-b after:border-gray-10 after:border-dashed">
-                        <h2 className="text-h2">Data de admissão</h2>
-                        <h3 className="text-h3">{formatDate(employee.admission_date)}</h3>
+                        <h2 className="text-h2 font-helvetica">Data de admissão</h2>
+                        <h3 className="text-h3 font-helvetica">{formatDate(employee.admission_date)}</h3>
                       </div>
 
                       <div className="flex justify-between px-4 relative after:block after:w-[calc(100%-2rem)] after:h-1 after:absolute after:bottom-0 after:left-4 after:border-b after:border-gray-10 after:border-dashed">
-                        <h2 className="text-h2">Telefone</h2>
-                        <h3 className="text-h3">{formatPhoneCustom(employee.phone)}</h3>
+                        <h2 className="text-h2 font-helvetica">Telefone</h2>
+                        <h3 className="text-h3 font-helvetica">{formatPhoneCustom(employee.phone)}</h3>
                       </div>
                     </div>
                   </td>
