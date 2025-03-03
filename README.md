@@ -2,13 +2,11 @@
 
 Este projeto consiste em uma aplicação front-end que exibe uma tabela de colaboradores com dados provenientes de uma API simulada. A interface é responsiva e inclui funcionalidade de pesquisa, seguindo o design especificado no Figma.
 
-<h1 align="center">
-    <img alt="Layout Web" src="/web.jpg" width="100%">
-</h1>
-
-<h1 align="center">
-    <img alt="Layout Mobile" src="/mobile.jpg" width="100%">
-</h1>
+##### Versão Web
+<img alt="Layout Web" src="/public/web.jpg" width="100%">
+    
+##### Versão Mobile
+<img alt="Layout Web" src="/public/mobile.jpg" width="30%">
 
 
 
@@ -35,15 +33,17 @@ Este projeto consiste em uma aplicação front-end que exibe uma tabela de colab
 ## 🔧 Instalação e Configuração
 Pré-requisitos
 
-Node.js (versão LTS recomendada)
-npm ou yarn
+- Node.js (versão LTS recomendada)
+- npm ou yarn
 
-Passos para instalação
+#### Passos para instalação
 
 Clone o repositório:
 
+```
 git clone https://github.com/victorparanhosdev/front-end-app.git
 cd front-end-app
+```
 
 Instale as dependências:
 ```
@@ -61,13 +61,14 @@ yarn dev
 ```
 
 Inicie o servidor JSON em outro terminal:
-
+```
 npm run dev:server
 ou
 yarn dev:server
+```
 
-A aplicação estará disponível em: http://localhost:5173
-O servidor JSON estará disponível em: http://localhost:3000
+- A aplicação estará disponível em: http://localhost:5173
+- O servidor JSON estará disponível em: http://localhost:3000
 
 ## 🏗️ Scripts Disponíveis
 
