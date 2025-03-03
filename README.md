@@ -2,13 +2,20 @@
 
 Este projeto consiste em uma aplicação front-end que exibe uma tabela de colaboradores com dados provenientes de uma API simulada. A interface é responsiva e inclui funcionalidade de pesquisa, seguindo o design especificado no Figma.
 
-##### Versão Web
-<img alt="Layout Web" src="/public/web.jpg" width="100%">
-    
-##### Versão Mobile
-<img alt="Layout Web" src="/public/mobile.jpg" width="30%">
+## 📱 Layout da Aplicação
 
-
+<table>
+  <tr align="left" valign="top">
+    <td width="60%">
+      <p><strong>Versão Web</strong></p>
+      <img alt="Layout Web" src="/public/web.jpg" width="100%">
+    </td>
+    <td width="20%">
+      <p><strong>Versão Mobile</strong></p>
+      <img alt="Layout Mobile" src="/public/mobile.jpg" width="100%">
+    </td>
+  </tr>
+</table>
 
 ## 🚀 Funcionalidades
 
